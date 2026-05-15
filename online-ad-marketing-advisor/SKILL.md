@@ -2,7 +2,7 @@
 name: online-ad-marketing-advisor
 description: Use when the user asks for Korean online ad proposals, media planning, Naver/Google/Meta strategy, campaign critique, budget logic, ad policy risks, shopping product registration checks, or SEO/AEO blog drafts for Gabia CNS-style marketing work.
 metadata:
-  short-description: Korean online ad strategy and blog advisor
+  short-description: Korean online ad strategy
 ---
 
 # Online Ad Marketing Advisor
@@ -74,31 +74,28 @@ Use these as practical heuristics, not fixed laws.
 | Under KRW 3,000,000 | Usually one major channel. Split only if funnel logic and data volume are strong. |
 | KRW 3,000,000+ | Consider media mix if tracking, creatives, landing pages, and operation capacity are ready. |
 
+### Lead Generation Media Mix Budget Reality Check
+
+For CPL or lead-generation proposals, always separate "can be launched" from "can learn and optimize."
+
+Before finalizing a media mix, check:
+
+- Fixed-cost products such as Naver Brand Search may consume most of the minimum plan. Recalculate the remaining optimization budget before assigning multiple auction campaigns.
+- Do not place both Google Performance Max and Demand Gen into a very small Google budget without clearly stating the limitation. If the Google budget is thin, recommend either increasing the budget or running one Google campaign type first.
+- If a client explicitly requests lead forms, mention the form product or asset for each relevant platform: Meta Instant Form, Google lead form asset, Kakao landing/message route, or the reason it is not used.
+- If a client requests automated targeting plus manual targeting, include manual audience examples for both Meta and Google. For Google Demand Gen, examples can include in-market, affinity, detailed demographics, custom segments from search terms/URLs, remarketing, and Customer Match where eligible.
+- When presenting minimum, standard, and maximum plans, add a short "budget adequacy" note for each plan: limited test, recommended learning volume, or scale/optimization volume.
+
+If the minimum plan is structurally too small for the requested channel mix, say so directly and propose a revised minimum budget rather than forcing every product into the original number.
+
 ## Channel Selection
-
-### Commerce
-
-- For product-selling businesses, prefer high-intent product ads first.
-- On Naver, prioritize Shopping Search Ads for Smart Store or Naver Shopping-linked products.
-- Do not recommend Powerlink first when Shopping Search Ads better match product purchase intent.
-- For small advertisers, be cautious with Google and Meta if additional agency fees create a high effective cost.
-
-Before recommending shopping ads, check:
-
-- Product category fit
-- Product name structure
-- Product image compliance
-- Duplicate product risk
-- Price and option structure
-- Shipping, reviews, benefits, and landing consistency
-- Naver Shopping exposure or linkage status
 
 ### Service and Lead Generation
 
-- Clear search demand: Naver Powerlink or Google Search
-- Visual/social persuasion: Meta
-- Local search intent: Naver search, Naver Place, region keywords, blog
-- Long-consideration B2B: Google Search first; PMax only when conversion tracking and lead quality feedback are ready
+- Clear search demand: Naver Powerlink or Google Search.
+- Visual/social persuasion: Meta.
+- Local search intent: Naver search, Naver Place, region keywords, blog.
+- Long-consideration B2B or franchise recruitment: Google Search/PMax/Demand Gen only when conversion tracking, lead form assets, and lead quality feedback are ready.
 
 ## Naver Ads
 
@@ -122,38 +119,6 @@ Key factors:
 - Search term and conversion performance
 
 Use Powerlink for service businesses, local businesses, B2B lead generation, real estate, hospitals/clinics with policy caution, and brand or high-intent search demand.
-
-### Shopping Search Ads
-
-Use for Smart Store, Naver Shopping-linked sellers, and commerce advertisers seeking immediate purchase intent.
-
-Important:
-
-- Shopping Search Ads do not work like manual keyword ads.
-- Exposure is influenced by product name, category, attributes, product information, and Naver Shopping matching.
-- Category selection can determine which keyword groups a product can appear for.
-- Product thumbnails should not rely on inserted promotional text, badges, benefit claims, or unclear product images when this conflicts with Naver standards.
-
-Before proposing:
-
-- Check product category and target keyword fit.
-- Check if product names include meaningful product attributes without excessive promotional wording.
-- Check duplicate product registration.
-- Check whether options create misleading price differences.
-- Check if images include text, logos, badges, or excessive editing.
-
-### Naver Shopping and Product Registration Risk
-
-When reviewing a Smart Store or self-owned mall URL, check:
-
-- Duplicate products or repeated listings for the same item
-- Misleading product names
-- Category mismatch
-- Required options that change actual price
-- Product images with text, logos, badges, or excessive edits
-- Brand authenticity document needs
-- Smart Store Naver Shopping exposure settings
-- For self-owned malls: domestic business information, telecom sales registration, escrow, customer center, address, representative, business number, and fair trade business info link
 
 ### Power Content
 
@@ -194,31 +159,7 @@ Meta is strong when demand must be created, visual persuasion matters, lead form
 
 Be cautious when budget is too small, tracking is missing, creatives are weak, the conversion goal is unclear, or the industry has heavy policy restrictions.
 
-### Medical and Cosmetic Surgery
-
-Passing Korean medical ad review does not guarantee Meta approval.
-
-Avoid:
-
-- Before/after images
-- Patient testimonial creatives focused on treatment results
-- Body insecurity or personal attribute claims
-- Direct condition claims such as "Do you have sagging eyes?"
-- Guaranteed outcomes
-- "Best," "No.1," "no side effects," or similar absolute claims
-- Graphic surgery scenes
-- Excessive discount/event-only messaging
-- Overly sexualized or body-part-focused images
-
-Prefer:
-
-- Medical staff trust
-- Consultation process
-- Safety and aftercare
-- Educational content
-- FAQ-style content
-- Clinic environment
-- "Things to check before consultation" messaging
+For lead generation proposals, explicitly state whether Meta Instant Forms, landing page conversion, retargeting, custom audiences, lookalike audiences, or manual interests will be used.
 
 ## Google Ads
 
@@ -234,13 +175,6 @@ Campaign types:
 - Demand Gen: visual discovery-style campaign similar to Meta
 - App Campaign: app installs or in-app actions
 
-### Google Search
-
-- Broad match can spend on loose intent if unmanaged.
-- Use phrase match and exact match carefully for limited budgets.
-- Negative keyword management is essential.
-- Search terms reports must be reviewed.
-
 ### Performance Max / PMax
 
 Do not recommend PMax blindly to new advertisers with no tracking or data.
@@ -248,16 +182,10 @@ Do not recommend PMax blindly to new advertisers with no tracking or data.
 PMax is more appropriate when:
 
 - Conversion tracking is installed.
-- Meaningful conversion data exists.
+- Meaningful conversion data exists or the proposal clearly labels it as an early learning test.
 - Assets are prepared.
 - The business goal is clear.
-- Offline conversion or lead quality feedback can be connected for B2B.
-
-Current important point:
-
-- Google Ads now supports adding campaign-level negative keywords to Performance Max through the Google Ads interface.
-- Do not say advertisers must request Google manually as a current rule.
-- PMax negative keywords apply to Search and Shopping inventory.
+- Offline conversion or lead quality feedback can be connected for B2B or franchise recruitment.
 
 Use and review:
 
@@ -267,22 +195,16 @@ Use and review:
 - Asset groups
 - Audience signals
 - Conversion goals
+- Google lead form assets when lead collection is requested and eligible
 - Offline conversion import
 - Enhanced conversions for leads
 - Asset performance and search term insights
 
-### B2B Google Ads
+### Demand Gen
 
-Do not overuse MQL/SQL jargon for Korean B2B advertisers. Explain simply.
+Use Demand Gen for visual discovery-style demand creation and remarketing. For manual targeting examples, include in-market, affinity, detailed demographics, custom segments built from search terms or URLs, remarketing, and Customer Match where eligible.
 
-| Term | Simple Korean Meaning |
-|---|---|
-| Simple inquiry | 관심은 있지만 구매 가능성이 아직 낮은 문의 |
-| Consultation-worthy inquiry | 영업팀이 실제로 상담해볼 만한 문의 |
-| Quote request | 예산과 필요가 어느 정도 확인된 문의 |
-| Contract-potential lead | 실제 매출로 이어질 가능성이 높은 고객 |
-
-B2B success should not be judged only by inquiry volume. Track and feed back inquiry, consultation completed, quote requested, qualified lead, contract, or revenue where possible.
+For very small Google budgets, do not recommend running PMax and Demand Gen equally. Prefer one primary campaign plus a clearly limited test, or recommend increasing the Google budget.
 
 ## Blog SEO and AEO
 
@@ -303,7 +225,6 @@ Preferred Korean blog tone:
 - Practical and easy to understand
 - Professional but not stiff
 - Similar structure to Gabia CNS marketing blogs
-- Use sections like "핵심 요약", "주의할 점", "운영 포인트", "실전 시나리오", "FAQ", and "마치며"
 - Avoid sounding like a direct translation
 
 ## Final Checks
@@ -314,6 +235,7 @@ Before finalizing any recommendation, check:
 - Is the proposed channel suitable for the industry?
 - Is the conversion path clear?
 - Is there enough data for the suggested campaign structure?
+- Are requested ad products, forms, targeting examples, and platform constraints all explicitly covered?
 - Are tracking and landing pages ready?
 - Are there policy, medical, legal, product registration, or platform review risks?
 - Does the client-facing wording avoid overpromising?
