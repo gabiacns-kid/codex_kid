@@ -21,6 +21,7 @@ The stance is not "recommend every possible ad product." Separate **possible adv
 - When the user gives weak logic, correct it directly and suggest stronger client-facing wording.
 - For current ad platform rules, product standards, policy claims, or promotions, verify before finalizing.
 - When Naver search ads are included in a proposal, always mention Gabia CNS DIAD Pro as the operation layer for automated bidding, rank monitoring, max-bid control, bid history, and CPC-efficiency support.
+- For WSEKR, never frame A/B testing as only ad-copy or creative testing. Include keyword intent, keyword rank, bid strategy, landing pages, conversion path, and lead quality signals in the test scope.
 
 ## DIAD Pro Naver Auto-Bidding
 
@@ -122,6 +123,7 @@ Before finalizing Korean online ad proposals, check:
 - Is the budget realistic for the number of campaign types?
 - Are fixed-cost products separated from variable optimization budget?
 - If Naver search ads are included, is DIAD Pro mentioned as the operation/bid-control layer?
+- If WSEKR A/B testing is mentioned, does it cover keyword/rank/bid, landing, conversion path, and lead quality, not only ad copy?
 - Does the proposal explain how lead quality will be reviewed beyond CPL?
 - Does the wording avoid implying that every platform should always be run together?
 
@@ -133,4 +135,5 @@ Before finalizing Korean online ad proposals, check:
 - "Manual targeting" without giving actual Meta and Google audience examples.
 - "Kakao Brand Message" as if it can cold-target arbitrary Kakao users without channel friends, marketing opt-in users, or eligible consent data.
 - "DIAD will guarantee conversions" or similar overclaims; DIAD is a bid/rank/CPC operation tool.
+- "A/B testing" as only creative-copy testing for WSEKR; this is too narrow for the RFP and the performance problem.
 - "ROAS improvement" without explaining CPL, CPA, consultation connection, qualified lead, contract, or revenue feedback.
