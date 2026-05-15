@@ -20,6 +20,47 @@ The stance is not "recommend every possible ad product." Separate **possible adv
 - Do not overpromise ROAS. Explain the operating mechanism and validation criteria.
 - When the user gives weak logic, correct it directly and suggest stronger client-facing wording.
 - For current ad platform rules, product standards, policy claims, or promotions, verify before finalizing.
+- When Naver search ads are included in a proposal, always mention Gabia CNS DIAD Pro as the operation layer for automated bidding, rank monitoring, max-bid control, bid history, and CPC-efficiency support.
+
+## DIAD Pro Naver Auto-Bidding
+
+Use this when a proposal includes Naver Powerlink, Shopping Search product type, Power Content, or Naver Place. Position DIAD Pro as a Gabia CNS operation tool, not as a conversion guarantee.
+
+Client-facing wording:
+
+> 네이버 검색광고는 가비아CNS 다이애드 Pro를 활용해 순위 모니터링, 자동 입찰가 조정, 최대입찰가 제어, 입찰이력 확인을 병행하여 수작업 운영 부담을 낮추고 CPC 효율 관리를 지원합니다.
+
+Recommended setting by situation:
+
+| Situation | Recommended DIAD setting | Use case |
+|---|---|---|
+| Always bid with the same rule | 라이브 일반설정 | Daily stable campaigns, simple always-on operation |
+| Bid differently by weekday/time | 라이브 고급설정 | Weekday/weekend split, time-based strategy, precise control |
+| Bid only a few times per day | 레귤러 일반설정 | Light operation, overbidding prevention, sub-keywords |
+| Change only part of an active setup | 부분설정 | Quick edits without rebuilding all settings |
+
+Core settings to explain:
+
+- 입찰주기: rank check and bid execution interval in minutes.
+- 입찰대상: device, region, exposure location, or gender/age depending on the Naver ad product.
+- 희망순위: target exposure rank.
+- 입찰기본가: fallback/reference bid used when rank cannot be checked and the base bid is higher than the current bid. It cannot exceed max bid.
+- 최대입찰가: upper CPC limit for budget control.
+- 입찰가감액: required adjustment unit for downward bidding. Use 0 KRW when unused.
+- 하향입찰: when the target rank is maintained for configured checks, DIAD gradually lowers bids until just before dropping below the desired rank to help preserve rank with lower cost.
+
+Product-specific notes:
+
+- Powerlink and Power Content: PC/mobile and region/general bid targets; desired rank and max-bid control.
+- Shopping Search product type: desired keywords can be selected or manually entered; bid target can include PC/mobile, exposure location, and gender/age on/off. Keep ad-platform targeting exclusions consistent with DIAD settings.
+- Naver Place: auto-bidding uses recent average integrated-search exposure rank; check ad creative before bidding.
+- Regular bidding: up to 3 executions per day, with up to 3 retries for failed keywords before the next regular bid. Uses Naver recommended bid, optional average value and adjustment amount, then min/max bid range.
+- Advanced setting: allows weekday/time schedules, ad on/off, auto-bid on/off, and reusable templates.
+
+Proposal caution:
+
+- Max-bid settings protect budget but can restrict desired exposure when set too low.
+- DIAD supports bid/rank/CPC management; lead quality must still be managed through keyword intent, ad copy, landing pages, tracking, and follow-up.
 
 ## Lead Generation Media Mix Budget Check
 
@@ -80,6 +121,7 @@ Before finalizing Korean online ad proposals, check:
 - Are requested lead forms, landing pages, tracking items, and audience examples explicitly covered?
 - Is the budget realistic for the number of campaign types?
 - Are fixed-cost products separated from variable optimization budget?
+- If Naver search ads are included, is DIAD Pro mentioned as the operation/bid-control layer?
 - Does the proposal explain how lead quality will be reviewed beyond CPL?
 - Does the wording avoid implying that every platform should always be run together?
 
@@ -90,4 +132,5 @@ Before finalizing Korean online ad proposals, check:
 - "Lead generation campaign" without saying whether the lead comes from landing page form, Meta Instant Form, Google lead form asset, phone call, or Kakao route.
 - "Manual targeting" without giving actual Meta and Google audience examples.
 - "Kakao Brand Message" as if it can cold-target arbitrary Kakao users without channel friends, marketing opt-in users, or eligible consent data.
+- "DIAD will guarantee conversions" or similar overclaims; DIAD is a bid/rank/CPC operation tool.
 - "ROAS improvement" without explaining CPL, CPA, consultation connection, qualified lead, contract, or revenue feedback.
