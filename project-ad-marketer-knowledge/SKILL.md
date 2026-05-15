@@ -30,6 +30,8 @@ When preparing CPL or franchise recruitment media mixes, do not only make the nu
 - If Google Performance Max and Demand Gen are both proposed, make sure the Google budget is large enough. If not, recommend increasing the minimum plan or running only one Google campaign type first.
 - If the client asks for lead forms, explicitly include Meta Instant Form and Google lead form asset where relevant.
 - If the client asks for automated and manual targeting, include manual targeting examples for both Meta and Google. For Google Demand Gen, mention in-market, affinity, detailed demographics, custom segments based on search terms or URLs, remarketing, and Customer Match where eligible.
+- For franchise recruitment, avoid mismatched Google in-market examples such as advertising/marketing services unless logically necessary. Prefer commercial real estate, business finance/business loans, food and dining or food service, retail, business services, and custom segments from franchise-intent search terms and competitor URLs.
+- For Kakao Brand Message, do not assume it only targets existing channel friends, but also do not describe it like open display prospecting. It can target channel friends or marketing opt-in users, including non-friends when eligible consent data and required permissions exist. If channel friend count or opt-in DB is unknown, make the budget conditional or replace it with Kakao Bizboard/search.
 - For minimum, standard, and maximum plans, add a budget adequacy note such as "limited launch test," "recommended learning volume," or "scale and optimization volume."
 
 ## Proposal Workflow
@@ -87,4 +89,5 @@ Before finalizing Korean online ad proposals, check:
 - "PMax and Demand Gen will optimize" when the Google budget is too small or tracking is missing.
 - "Lead generation campaign" without saying whether the lead comes from landing page form, Meta Instant Form, Google lead form asset, phone call, or Kakao route.
 - "Manual targeting" without giving actual Meta and Google audience examples.
+- "Kakao Brand Message" as if it can cold-target arbitrary Kakao users without channel friends, marketing opt-in users, or eligible consent data.
 - "ROAS improvement" without explaining CPL, CPA, consultation connection, qualified lead, contract, or revenue feedback.
