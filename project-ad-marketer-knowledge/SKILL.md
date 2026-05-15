@@ -21,6 +21,17 @@ The stance is not "recommend every possible ad product." Separate **possible adv
 - When the user gives weak logic, correct it directly and suggest stronger client-facing wording.
 - For current ad platform rules, product standards, policy claims, or promotions, verify before finalizing.
 
+## Lead Generation Media Mix Budget Check
+
+When preparing CPL or franchise recruitment media mixes, do not only make the numbers add up. Check whether the budget can realistically generate enough data for the proposed campaign structure.
+
+- Separate "can be launched" from "can optimize." A campaign can technically run with a small budget, but still be too thin for learning.
+- Check fixed-cost items first, especially Naver Brand Search. Then judge whether the remaining variable budget is enough for Naver search, Meta, Google, Kakao, and retargeting.
+- If Google Performance Max and Demand Gen are both proposed, make sure the Google budget is large enough. If not, recommend increasing the minimum plan or running only one Google campaign type first.
+- If the client asks for lead forms, explicitly include Meta Instant Form and Google lead form asset where relevant.
+- If the client asks for automated and manual targeting, include manual targeting examples for both Meta and Google. For Google Demand Gen, mention in-market, affinity, detailed demographics, custom segments based on search terms or URLs, remarketing, and Customer Match where eligible.
+- For minimum, standard, and maximum plans, add a budget adequacy note such as "limited launch test," "recommended learning volume," or "scale and optimization volume."
+
 ## Proposal Workflow
 
 When building an ad proposal, structure the thinking in this order:
@@ -59,21 +70,21 @@ For Wall Street English Korea-style RFPs, the strongest frame is:
 
 Do not present Kakao, GFA, Power Content, or blog/cafe as main channels by default. Present them as **limited validation tests** that support Naver search performance and lead quality.
 
-## Common Client-Facing Phrases
+## Reusable Proposal Checks
 
-- "가능한 매체를 모두 운영하는 방식이 아니라, 성과 개선에 기여할 가능성이 높은 접점부터 제한적으로 검증하겠습니다."
-- "확장검색은 피해야 할 기능이 아니라 관리해야 할 기능입니다. 검색어 리포트를 기반으로 발굴, 제외, 정식 키워드 승격, 그룹 재편까지 연결하겠습니다."
-- "단순 클릭수나 전환수보다 상담 연결률, 센터 방문/예약, 등록률, 매출 기여도까지 이어지는 리드 품질 중심으로 판단하겠습니다."
-- "블로그·카페 영역은 바이럴 운영 대행이 아니라, 네이버 검색결과 내 탐색 접점과 신뢰도 환경을 진단하고 광고 메시지 개선에 활용하겠습니다."
-- "신규 매체는 본예산을 분산하기보다, 명확한 KPI와 테스트 기간을 정해 성과 가능성을 먼저 검증하겠습니다."
-- "예산은 매체 수보다 데이터가 쌓이는 구조가 중요합니다. 판단 가능한 클릭·전환 모수가 확보되는 방향으로 캠페인을 설계하겠습니다."
-- "광고 성과는 입찰가 조정만으로 개선하기 어렵습니다. 키워드 구조, 소재 메시지, 랜딩 품질, 전환 추적까지 함께 점검하겠습니다."
-- "보고는 노출·클릭 지표에 그치지 않고, 유효 문의와 실제 상담/구매로 이어지는 흐름을 기준으로 개선안을 제안드리겠습니다."
+Before finalizing Korean online ad proposals, check:
+
+- Are requested ad products all covered?
+- Are requested lead forms, landing pages, tracking items, and audience examples explicitly covered?
+- Is the budget realistic for the number of campaign types?
+- Are fixed-cost products separated from variable optimization budget?
+- Does the proposal explain how lead quality will be reviewed beyond CPL?
+- Does the wording avoid implying that every platform should always be run together?
 
 ## Avoid
 
-- "모든 매체를 같이 하면 시너지가 납니다" without budget and KPI logic.
-- "확장검색으로 모든 키워드를 커버합니다."
-- "카카오 채널을 활성화하겠습니다" when the actual scope is paid ads, not channel operation.
-- "블로그 운영을 해드립니다" when GabiaCNS is proposing ad placements or Power Content.
-- "ROAS를 개선합니다" without explaining CPL, CPA, consultation connection, registration, and revenue feedback.
+- "Run every possible channel" without budget and KPI logic.
+- "PMax and Demand Gen will optimize" when the Google budget is too small or tracking is missing.
+- "Lead generation campaign" without saying whether the lead comes from landing page form, Meta Instant Form, Google lead form asset, phone call, or Kakao route.
+- "Manual targeting" without giving actual Meta and Google audience examples.
+- "ROAS improvement" without explaining CPL, CPA, consultation connection, qualified lead, contract, or revenue feedback.
