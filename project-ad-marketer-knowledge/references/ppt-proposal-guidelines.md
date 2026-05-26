@@ -32,6 +32,9 @@ Use when the user asks for design references before building a detailed PPT.
 - Increase line spacing for bullet lists.
 - Do not leave the lower slide area empty.
 
+For a clean, readable, unified performance-proposal deck similar to the WSE Naver proposal, use
+`references/wse-clean-ppt-style.md`.
+
 ## Visual Safety Rules
 
 PowerPoint file integrity is more important than decorative design.
