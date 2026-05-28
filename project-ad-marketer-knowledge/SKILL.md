@@ -95,9 +95,11 @@ Load only the references needed for the task:
 - For CDP, DMP, CRM data, audience data, first-party/third-party data, and paid-media targeting explanations: read `references/dmp-cdp-data-platforms.md`.
 - For blog SEO/AEO and content writing rules: read `references/blog-seo-aeo.md`.
 - For ADVoost Screen blog posts and DOOH product wording: read `references/advoost-screen-blog.md`.
+- For rewarded app ads, offerwall, CPQ/CPA/CPI/CPE, MMP tracking, valid lead definitions, and postback/reconciliation limits: read `references/reward-app-performance-ads.md`.
 - For PPT proposal production and visual quality rules: read `references/ppt-proposal-guidelines.md`.
 - For a clean, readable, unified PPT style like the WSE proposal deck: read `references/wse-clean-ppt-style.md`.
 - For government advertising proposal PPT style like the 2026 H2 final qualitative proposal: read `references/gov-ad-final-ppt-style.md`.
+- For government advertising presentation Q&A preparation: read `references/gov-ad-qa-prep.md`.
 
 ## WSEKR Default Positioning
 
