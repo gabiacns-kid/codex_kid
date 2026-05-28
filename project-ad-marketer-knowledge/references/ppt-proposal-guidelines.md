@@ -35,6 +35,9 @@ Use when the user asks for design references before building a detailed PPT.
 For a clean, readable, unified performance-proposal deck similar to the WSE Naver proposal, use
 `references/wse-clean-ppt-style.md`.
 
+For a government-advertising RFP proposal deck similar to the 2026 H2 final qualitative proposal, use
+`references/gov-ad-final-ppt-style.md`.
+
 ## Visual Safety Rules
 
 PowerPoint file integrity is more important than decorative design.
