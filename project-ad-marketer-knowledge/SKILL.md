@@ -36,6 +36,24 @@ Recommended setting by situation:
 | Bid only a few times per day | Regular basic setting | Light operation, overbidding prevention, sub-keywords |
 | Change only part of an active setup | Partial setting | Quick edits without rebuilding all settings |
 
+Core settings to explain:
+
+- Bid interval: rank check and bid execution interval in minutes.
+- Bid target: device, region, exposure location, or gender/age depending on the Naver ad product.
+- Desired rank: target exposure rank.
+- Base bid: fallback/reference bid used when rank cannot be checked and the base bid is higher than the current bid. It cannot exceed max bid.
+- Max bid: upper CPC limit for budget control.
+- Bid adjustment amount: required adjustment unit for downward bidding. Use 0 KRW when unused.
+- Downward bidding: when the target rank is maintained for configured checks, DIAD gradually lowers bids until just before dropping below the desired rank to help preserve rank with lower cost.
+
+Product-specific notes:
+
+- Powerlink and Power Content: PC/mobile and region/general bid targets; desired rank and max-bid control.
+- Shopping Search product type: desired keywords can be selected or manually entered; bid target can include PC/mobile, exposure location, and gender/age on/off. Keep ad-platform targeting exclusions consistent with DIAD settings.
+- Naver Place: auto-bidding uses recent average integrated-search exposure rank; check ad creative before bidding.
+- Regular bidding: up to 3 executions per day, with up to 3 retries for failed keywords before the next regular bid. Uses Naver recommended bid, optional average value and adjustment amount, then min/max bid range.
+- Advanced setting: allows weekday/time schedules, ad on/off, auto-bid on/off, and reusable templates.
+
 Proposal caution:
 
 - Max-bid settings protect budget but can restrict desired exposure when set too low.
@@ -49,8 +67,7 @@ When preparing CPL or franchise recruitment media mixes, do not only make the nu
 - Check fixed-cost items first, especially Naver Brand Search. Then judge whether the remaining variable budget is enough for Naver search, Meta, Google, Kakao, and retargeting.
 - If Google Performance Max and Demand Gen are both proposed, make sure the Google budget is large enough. If not, recommend increasing the minimum plan or running only one Google campaign type first.
 - If the client asks for lead forms, explicitly include Meta Instant Form and Google lead form asset where relevant.
-- If the client asks for automated and manual targeting, include manual targeting examples for both Meta and Google.
-- For Google Demand Gen, mention in-market, affinity, detailed demographics, custom segments based on search terms or URLs, remarketing, and Customer Match where eligible.
+- If the client asks for automated and manual targeting, include manual targeting examples for both Meta and Google. For Google Demand Gen, mention in-market, affinity, detailed demographics, custom segments based on search terms or URLs, remarketing, and Customer Match where eligible.
 - For franchise recruitment, avoid mismatched Google in-market examples such as advertising/marketing services unless logically necessary. Prefer commercial real estate, business finance/business loans, food and dining or food service, retail, business services, and custom segments from franchise-intent search terms and competitor URLs.
 - For Kakao Brand Message, do not assume it only targets existing channel friends, but also do not describe it like open display prospecting. It can target channel friends or marketing opt-in users, including non-friends when eligible consent data and required permissions exist. If channel friend count or opt-in DB is unknown, make the budget conditional or replace it with Kakao Bizboard/search.
 - For minimum, standard, and maximum plans, add a budget adequacy note such as "limited launch test," "recommended learning volume," or "scale and optimization volume."
@@ -93,9 +110,11 @@ Load only the references needed for the task:
 - For Naver Powerlink, ADVoost, expanded search, quality index, or auto-bidding: read `references/naver-search-advoost.md`.
 - For Kakao, Naver GFA, Communication Ads, Power Content, and blog/cafe/media expansion: read `references/kakao-gfa-content.md`.
 - For CDP, DMP, CRM data, audience data, first-party/third-party data, and paid-media targeting explanations: read `references/dmp-cdp-data-platforms.md`.
+- For cookie loss, MMP/SDK/S2S, Meta CAPI, Google enhanced conversions, server-side GTM, SKAN/AdAttributionKit, or privacy-first attribution: read `references/privacy-first-attribution-tracking.md`.
 - For blog SEO/AEO and content writing rules: read `references/blog-seo-aeo.md`.
 - For ADVoost Screen blog posts and DOOH product wording: read `references/advoost-screen-blog.md`.
 - For rewarded app ads, offerwall, CPQ/CPA/CPI/CPE, MMP tracking, valid lead definitions, and postback/reconciliation limits: read `references/reward-app-performance-ads.md`.
+- For global audition recruitment, K-pop auditions, teen targeting, under-18 platform limits, or guardian-support targeting: read `references/global-audition-teen-targeting.md`.
 - For PPT proposal production and visual quality rules: read `references/ppt-proposal-guidelines.md`.
 - For a clean, readable, unified PPT style like the WSE proposal deck: read `references/wse-clean-ppt-style.md`.
 - For government advertising proposal PPT style like the 2026 H2 final qualitative proposal: read `references/gov-ad-final-ppt-style.md`.
