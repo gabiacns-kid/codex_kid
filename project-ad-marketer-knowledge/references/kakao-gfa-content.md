@@ -2,11 +2,15 @@
 
 ## Core Rule
 
-Use Kakao, GFA, Communication Ads, Power Content, and blog/cafe placements as **supporting tests** unless the advertiser explicitly asks for awareness or has enough budget/data to support multi-channel operation.
+Do not treat Kakao as a minor backup by default. Consider Kakao on the same first-stage media planning table as Naver, Google, and Meta.
 
-Do not present them as a guaranteed solution for performance decline.
+However, do not force Kakao into every media mix. Decide its role by objective, budget, Kakao channel assets, marketing opt-in data, creative readiness, landing/tracking readiness, and expected conversion path.
+
+When comparing Naver and Kakao, compare by **campaign role** rather than assuming exact one-to-one product equivalence. Some products are similar in purpose but differ in inventory, pricing, targeting, landing options, and operational prerequisites.
 
 ## Kakao Products
+
+Use this section with `references/kakao-moment-products-2026.md` for detailed product mapping and proposal cautions.
 
 ### Bizboard
 
