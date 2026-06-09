@@ -112,7 +112,7 @@ Use when:
 - Pricing: CPT by one-hour slots from 09:00 to 21:00.
 - Landing: Kakao Gift only.
 - Targeting: unavailable.
-- Role: high-impact commerce exposure on Kako Gift home.
+- Role: high-impact commerce exposure on Kakao Gift home.
 
 Use when:
 
