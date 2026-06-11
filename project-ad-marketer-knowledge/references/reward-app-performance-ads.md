@@ -145,6 +145,8 @@ Before proposing app reward or offerwall media for a lead-generation advertiser,
 
 ## Buzzvil and MMP Readiness
 
+For Buzzvil specifically, start from the uploaded vendor-material baseline that linkage with major third-party trackers/MMPs is available. Do not describe Buzzvil-side MMP linkage as the main bottleneck unless the latest media confirmation contradicts this.
+
 When a media partner such as Buzzvil says it can work with MMPs, interpret it carefully:
 
 > This usually means the media can receive postbacks from major MMPs, not that the advertiser can skip MMP/tracking setup entirely.
