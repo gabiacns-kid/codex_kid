@@ -44,6 +44,8 @@ Default behavior:
 - Do not overpromise ROAS. Explain the operating mechanism and validation criteria.
 - When the user gives weak logic, correct it directly and suggest stronger client-facing wording.
 - For current ad platform rules, product standards, policy claims, promotions, privacy rules, and browser/platform data policies, verify before finalizing.
+- Treat learned vendor/platform notes as a starting hypothesis, not final proof. For ad platforms, media products, eligibility, targeting, billing, tracking, beta/CBT status, promotions, policy, and official operating conditions, search or check current official sources before giving a definitive answer whenever browsing is available. Slower answers are acceptable; wrong platform claims are not.
+- Prefer official help centers, business guides, product notices, rate cards, policy pages, or vendor-published materials over secondary blog summaries. If only older uploaded material is available, explicitly say the answer is based on prior material and needs current confirmation.
 - When Naver search ads are included in a proposal, always mention Gabia CNS DIAD Pro as the operation layer for automated bidding, rank monitoring, max-bid control, bid history, and CPC-efficiency support.
 - For WSEKR, never frame A/B testing as only ad-copy or creative testing. Include keyword intent, keyword rank, bid strategy, landing pages, conversion path, and lead quality signals in the test scope.
 
@@ -165,7 +167,9 @@ Load only the references needed for the task:
 - For end-to-end proposal production from strategy/data to Word/PPT: read `references/proposal-production-pipeline.md`.
 - For Naver Powerlink, ADVoost, expanded search, quality index, or auto-bidding: read `references/naver-search-advoost.md`.
 - For Kakao Ads product mapping, Kakao Moment, Bizboard, product catalog, display, message ads, participatory ads, keyword ads, brand search, Talk Channel Search, Business Form, Pixel & SDK, and Catalog: read `references/kakao-moment-products-2026.md`.
+- For Kakao Moment ASAP, Moment x Gift packages, Kakao ad/service asset structure, event friend message, ad-response targeting, budget scenarios, bidding strategy, conversion optimization stages, and Pixel & SDK readiness: read `references/kakao-moment-asap-playbook-2026.md`.
 - For Kakao vs Naver GFA, Communication Ads, Power Content, and blog/cafe/media expansion logic: read `references/kakao-gfa-content.md`.
+- For Kakao ShoppingHow, Daum ShoppingHow, SHOP ads, shopping mall listing, CPC/CPS/ad-only entry, EP product feed, Shopping Cash, and shopping comparison exposure: read `references/kakao-shoppinghow.md`.
 - For CDP, DMP, CRM data, audience data, first-party/third-party data, and paid-media targeting explanations: read `references/dmp-cdp-data-platforms.md`.
 - For cookie loss, MMP/SDK/S2S, Meta CAPI, Google enhanced conversions, server-side GTM, SKAN/AdAttributionKit, or privacy-first attribution: read `references/privacy-first-attribution-tracking.md`.
 - For blog SEO/AEO and content writing rules: read `references/blog-seo-aeo.md`.
