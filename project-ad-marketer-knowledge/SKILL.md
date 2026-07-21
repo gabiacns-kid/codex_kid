@@ -166,12 +166,15 @@ Load only the references needed for the task:
 - For WSEKR or education lead-generation proposals: read `references/wsekr-proposal.md`.
 - For end-to-end proposal production from strategy/data to Word/PPT: read `references/proposal-production-pipeline.md`.
 - For Naver Powerlink, ADVoost, expanded search, quality index, or auto-bidding: read `references/naver-search-advoost.md`.
+- For Gmarket/Auction Power Click, AI SalesUp, AI Product Ads, seller-specific mini-shop and product diagnosis, product-role assignment, or product-centered outbound proposals: read `references/gmarket-powerclick-ai-salesup.md`.
 - For Kakao Ads product mapping, Kakao Moment, Bizboard, product catalog, display, message ads, participatory ads, keyword ads, brand search, Talk Channel Search, Business Form, Pixel & SDK, and Catalog: read `references/kakao-moment-products-2026.md`.
 - For Kakao Moment ASAP, Moment x Gift packages, Kakao ad/service asset structure, event friend message, ad-response targeting, budget scenarios, bidding strategy, conversion optimization stages, and Pixel & SDK readiness: read `references/kakao-moment-asap-playbook-2026.md`.
+- For the 2026-07 Kakao Commerce Catalog advertiser free-cash benefit, agency growth reward, eligibility windows, reward exclusions, catalog campaign setup, internal ROAS cases, and proposal wording: read `references/kakao-commerce-catalog-growth-reward-202607.md`.
 - For Kakao vs Naver GFA, Communication Ads, Power Content, and blog/cafe/media expansion logic: read `references/kakao-gfa-content.md`.
 - For Kakao ShoppingHow, Daum ShoppingHow, SHOP ads, shopping mall listing, CPC/CPS/ad-only entry, EP product feed, Shopping Cash, and shopping comparison exposure: read `references/kakao-shoppinghow.md`.
 - For CDP, DMP, CRM data, audience data, first-party/third-party data, and paid-media targeting explanations: read `references/dmp-cdp-data-platforms.md`.
 - For cookie loss, MMP/SDK/S2S, Meta CAPI, Google enhanced conversions, server-side GTM, SKAN/AdAttributionKit, or privacy-first attribution: read `references/privacy-first-attribution-tracking.md`.
+- For Meta public-service or education traffic estimates, gross-budget decomposition, weighted CPM/CPC/CTR forecasting, click-versus-landing-page-view boundaries, duplicated report files, or youth-platform campaign planning: read `references/meta-public-service-traffic-estimation.md`.
 - For blog SEO/AEO and content writing rules: read `references/blog-seo-aeo.md`.
 - For ADVoost Screen blog posts and DOOH product wording: read `references/advoost-screen-blog.md`.
 - For rewarded app ads, offerwall, CPQ/CPA/CPI/CPE, MMP tracking, valid lead definitions, and postback/reconciliation limits: read `references/reward-app-performance-ads.md`.
