@@ -166,6 +166,7 @@ Load only the references needed for the task:
 - For WSEKR or education lead-generation proposals: read `references/wsekr-proposal.md`.
 - For end-to-end proposal production from strategy/data to Word/PPT: read `references/proposal-production-pipeline.md`.
 - For Naver Powerlink, ADVoost, expanded search, quality index, or auto-bidding: read `references/naver-search-advoost.md`.
+- For Naver API-based shopping research, Search Ads keyword-tool fields, Shopping Insight interpretation, Shopping Search API limitations or shutdown, API-to-manual verification workflows, and API-informed primary-product selection: read `references/naver-api-shopping-research-workflow-202607.md`.
 - For Gmarket/Auction Power Click, AI SalesUp, AI Product Ads, seller-specific mini-shop and product diagnosis, product-role assignment, or product-centered outbound proposals: read `references/gmarket-powerclick-ai-salesup.md`.
 - For Kakao Ads product mapping, Kakao Moment, Bizboard, product catalog, display, message ads, participatory ads, keyword ads, brand search, Talk Channel Search, Business Form, Pixel & SDK, and Catalog: read `references/kakao-moment-products-2026.md`.
 - For Kakao Moment ASAP, Moment x Gift packages, Kakao ad/service asset structure, event friend message, ad-response targeting, budget scenarios, bidding strategy, conversion optimization stages, and Pixel & SDK readiness: read `references/kakao-moment-asap-playbook-2026.md`.
@@ -174,6 +175,7 @@ Load only the references needed for the task:
 - For Kakao ShoppingHow, Daum ShoppingHow, SHOP ads, shopping mall listing, CPC/CPS/ad-only entry, EP product feed, Shopping Cash, and shopping comparison exposure: read `references/kakao-shoppinghow.md`.
 - For CDP, DMP, CRM data, audience data, first-party/third-party data, and paid-media targeting explanations: read `references/dmp-cdp-data-platforms.md`.
 - For cookie loss, MMP/SDK/S2S, Meta CAPI, Google enhanced conversions, server-side GTM, SKAN/AdAttributionKit, or privacy-first attribution: read `references/privacy-first-attribution-tracking.md`.
+- For Meta Collaborative Ads, Korean retailer catalog segments, Naver/11st/Gmarket-Auction onboarding, retailer landing and conversion data, collaborative-ad budgets, or the distinction from Partnership Ads: read `references/meta-collaborative-ads-korean-retailers-202602.md`.
 - For Meta public-service or education traffic estimates, gross-budget decomposition, weighted CPM/CPC/CTR forecasting, click-versus-landing-page-view boundaries, duplicated report files, or youth-platform campaign planning: read `references/meta-public-service-traffic-estimation.md`.
 - For blog SEO/AEO and content writing rules: read `references/blog-seo-aeo.md`.
 - For ADVoost Screen blog posts and DOOH product wording: read `references/advoost-screen-blog.md`.
