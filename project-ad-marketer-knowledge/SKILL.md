@@ -117,6 +117,7 @@ Planning posture:
 - Do not force Kakao into every mix, but do not dismiss it as only supplementary.
 - For advertisers with Kakao channel friends, CRM data, local/event offers, mobile-first inquiry paths, or strong message-driven promotions, Kakao can be a main test channel.
 - Verify current Kakao product availability, beta/CBT status, targeting conditions, and message consent requirements before finalizing.
+- When an advertiser has a KakaoTalk Channel, actively evaluate message advertising in every proposal analysis and media mix. Check channel friend count, recent engagement, promotion/benefit readiness, marketing-consent DB, first-party event data, API readiness, and CBT eligibility, then recommend only executable products: Channel Message for channel friends, Personalized Message for event-triggered CRM, Brand Message for eligible marketing-consent users, and Brand Pick for benefit-led new-audience expansion when available. If these prerequisites are unknown, include the message plan as a conditional recommendation and list the required checks.
 
 ## Real Estate / Commercial Property Lead Generation
 
@@ -165,28 +166,50 @@ Load only the references needed for the task:
 
 - For WSEKR or education lead-generation proposals: read `references/wsekr-proposal.md`.
 - For end-to-end proposal production from strategy/data to Word/PPT: read `references/proposal-production-pipeline.md`.
-- For Naver Powerlink, ADVoost, expanded search, quality index, or auto-bidding: read `references/naver-search-advoost.md`.
+- For NotebookLM-like source-first proposal research, market/category research, competitor-product positioning, source-backed ad strategy, or combining web research with existing ad domain knowledge: read `references/source-first-proposal-research-workflow.md`.
+- For automotive wiper advertisers, CAP-style online performance proposals, Naver Shopping Search product registration strategy, car-model fitment logic, and Meta wiper creative testing: read `references/automotive-wiper-performance-ads.md`.
+- For Naver Powerlink, ADVoost, ADVoost Max, AI Briefing ads, expanded search, quality index, Naver AI ad landing/schema readiness, or auto-bidding: read `references/naver-search-advoost.md`.
+- For Naver Shopping Search account audits, shopping product group diagnosis, demographic/device bid modifier cleanup, excluded keyword structure, partner media restrictions, ADVoost/Boost Up sequencing, and DIAD Pro shopping operation wording: read `references/naver-shopping-account-audit.md`.
 - For Naver API-based shopping research, Search Ads keyword-tool fields, Shopping Insight interpretation, Shopping Search API limitations or shutdown, API-to-manual verification workflows, and API-informed primary-product selection: read `references/naver-api-shopping-research-workflow-202607.md`.
-- For Gmarket/Auction Power Click, AI SalesUp, AI Product Ads, seller-specific mini-shop and product diagnosis, product-role assignment, or product-centered outbound proposals: read `references/gmarket-powerclick-ai-salesup.md`.
+- For Naver ad product education-style explanations, customer journey to ad product mapping, Naver funnel framing, ADVoost/GFA explanation patterns, and proposal wording that makes ordinary media strategy sound clearer: read `references/naver-ad-product-explanation-patterns.md`.
+- For Naver GFA account diagnosis, last-click versus data-based contribution conversion, frequent budget or creative changes, learning-reset cautions, own-mall audience limitations, Brand Search revenue concentration, and GA4 funnel confirmation: read `references/naver-gfa-attribution-learning-audit-202607.md`.
+- For Naver advertiser-agency transfer, delegation of tax invoices, BizMoney refund boundaries, existing-agency handoff, account-access checks, and the first 30-day onboarding schedule: read `references/naver-agency-transfer-onboarding-202607.md`.
+- For B2B sales-email patterns, quote-based advertiser trust building, consultative outreach emails, or learning from positive advertiser reactions to proposal emails: read `references/b2b-sales-email-response-patterns.md`.
+- For oral-care, hygiene, toothbrush/floss, repeat-purchase consumer goods, Naver Shopping/Search + Gmarket Power Click/AI SalesUp commerce proposals, product-feed strategy, review/repurchase logic, and category-first proposal structure: read `references/dental-care-repeat-purchase-commerce.md`.
+- For Gmarket/Auction Power Click, AI SalesUp, AI Product Ads, open-market seller ads, market-analysis outbound mail, product-number sales DB comparison, self-owned mall detection for Naver expansion, Gmarket vs Auction bidding/reporting limits, or Power Click + AI SalesUp proposal logic: read `references/gmarket-powerclick-ai-salesup.md`.
+- For open-market weekly report comments, marketplace ROAS insights, 11st/Gmarket/Auction Best/Worst product or keyword tables, and next-action wording based on spend/conversion thresholds: read `references/open-market-weekly-report-insights.md`.
+- For weekly ad-report email structure, DA media comparison comments, tracking/setup approval request emails, and client-facing next-action wording: read `references/weekly-report-email-insights.md`.
+- For beverage, hydration, repeat-purchase consumer goods, seasonal fruit, fresh food, seafood, product lifecycle, promotion baselines, AOV/CVR decomposition, and product-channel inference: read `references/beverage-seasonal-fresh-food-marketplace-inference.md`.
+- For custom pouches, brand merchandise, beauty accessories, corporate promotional goods, OEM/ODM manufacturing, and small-budget quote-based B2B search advertising: read `references/b2b-custom-promotional-goods-search-ads.md`.
 - For Kakao Ads product mapping, Kakao Moment, Bizboard, product catalog, display, message ads, participatory ads, keyword ads, brand search, Talk Channel Search, Business Form, Pixel & SDK, and Catalog: read `references/kakao-moment-products-2026.md`.
 - For Kakao Moment ASAP, Moment x Gift packages, Kakao ad/service asset structure, event friend message, ad-response targeting, budget scenarios, bidding strategy, conversion optimization stages, and Pixel & SDK readiness: read `references/kakao-moment-asap-playbook-2026.md`.
 - For the 2026-07 Kakao Commerce Catalog advertiser free-cash benefit, agency growth reward, eligibility windows, reward exclusions, catalog campaign setup, internal ROAS cases, and proposal wording: read `references/kakao-commerce-catalog-growth-reward-202607.md`.
+- For Kakao Commerce Ads Center seller-linked groups, Gift/Talk Deal/Talk Shopping placements, direct purchase/approval/contract, BizWallet/payment, Channel/Personalized/Brand/Brand Pick message differences, CPMS cautions, and ad-response target definitions: read `references/kakao-commerce-ads-center-message-operations-202607.md`.
 - For Kakao vs Naver GFA, Communication Ads, Power Content, and blog/cafe/media expansion logic: read `references/kakao-gfa-content.md`.
 - For Kakao ShoppingHow, Daum ShoppingHow, SHOP ads, shopping mall listing, CPC/CPS/ad-only entry, EP product feed, Shopping Cash, and shopping comparison exposure: read `references/kakao-shoppinghow.md`.
+- For programmatic advertising, DSP, SSP, ad exchange, RTB, media-buying supply chain, or explaining the difference between advertiser-side buying tools and publisher-side selling tools: read `references/programmatic-dsp-ssp-rtb.md`.
+- For Criteo, commerce media, Commerce Growth, Dynamic Retargeting, Commerce Max, retail media, commerce audiences, or Criteo-style performance display/network advertising: read `references/criteo-commerce-media-platform.md`.
 - For CDP, DMP, CRM data, audience data, first-party/third-party data, and paid-media targeting explanations: read `references/dmp-cdp-data-platforms.md`.
 - For cookie loss, MMP/SDK/S2S, Meta CAPI, Google enhanced conversions, server-side GTM, SKAN/AdAttributionKit, or privacy-first attribution: read `references/privacy-first-attribution-tracking.md`.
 - For Meta Collaborative Ads, Korean retailer catalog segments, Naver/11st/Gmarket-Auction onboarding, retailer landing and conversion data, collaborative-ad budgets, or the distinction from Partnership Ads: read `references/meta-collaborative-ads-korean-retailers-202602.md`.
-- For Meta public-service or education traffic estimates, gross-budget decomposition, weighted CPM/CPC/CTR forecasting, click-versus-landing-page-view boundaries, duplicated report files, or youth-platform campaign planning: read `references/meta-public-service-traffic-estimation.md`.
 - For blog SEO/AEO and content writing rules: read `references/blog-seo-aeo.md`.
+- For blog/card-news image scripts, 1:1 infographic layout, readable marketing-report visuals, and avoiding AI-looking or unstable card designs: read `references/blog-image-production.md`.
 - For ADVoost Screen blog posts and DOOH product wording: read `references/advoost-screen-blog.md`.
 - For rewarded app ads, offerwall, CPQ/CPA/CPI/CPE, MMP tracking, valid lead definitions, and postback/reconciliation limits: read `references/reward-app-performance-ads.md`.
 - For Buzzvil and NBT Adison uploaded product sheets, reward platform vendor-specific product maps, setup requirements, targeting notes, and rate-card cautions: read `references/reward-platform-vendor-notes.md`.
 - For global audition recruitment, K-pop auditions, teen targeting, under-18 platform limits, or guardian-support targeting: read `references/global-audition-teen-targeting.md`.
+- For Meta public-service or education traffic estimates, gross-budget decomposition, weighted CPM/CPC/CTR forecasting, click-versus-landing-page-view boundaries, duplicated report files, or youth-platform campaign planning: read `references/meta-public-service-traffic-estimation.md`.
+- For health functional food distributor, agency, branch, sales partner, or franchise-style recruitment ads, prior-review boundaries, multi-level-sales checks, recruitment landing pages, and qualified-lead media planning: read `references/health-functional-food-partner-recruitment-ads.md`.
 - For Google I/O 2026, Google Marketing Live 2026, AI Mode, AI Max, Demand Gen, Merchant Center, Shopping AI, Asset Studio, Ask Advisor, or Google Ads AI updates: read `references/google-io-gml-2026-marketing.md`.
+- For Google AdMob, app monetization, in-app ad formats, mediation/bidding/waterfall, Google Mobile Ads SDK readiness, app-ads.txt, AdMob payments, invalid traffic, or publisher-side mobile ad revenue: read `references/google-admob-app-monetization.md`.
+- For local restaurants, Google Business Profile or Maps landing, foreign-tourist store-visit campaigns, multilingual Google Search keywords, and direction/call-click KPI planning: read `references/local-restaurant-google-maps-foreign-tourists.md`.
+- For Toss Ads, reward/offerwall-style campaigns, Toss benefit-tab media, Toss Money Notification, Lucky Quiz, Live Market, Shortform, Button Press, Catalog Vote, Point/Visit Mission, Toss Pixel/MAT, Toss account transfer, ad money, settlement, or cancellation penalty rules: read `references/toss-ads-basic-guide.md`.
 - For PPT proposal production and visual quality rules: read `references/ppt-proposal-guidelines.md`.
+- For franchise recruitment CPL media-mix PPTs using the Nine Block-style 14-slide navy/blue system: read `references/nineblock-media-mix-proposal.md`.
 - For a clean, readable, unified PPT style like the WSE proposal deck: read `references/wse-clean-ppt-style.md`.
 - For government advertising proposal PPT style like the 2026 H2 final qualitative proposal: read `references/gov-ad-final-ppt-style.md`.
 - For government advertising presentation Q&A preparation: read `references/gov-ad-qa-prep.md`.
+- For cross-thread knowledge imported from the Codex project threads "블로그 내용 파악", "PPT 스크립트 학습 방법", "광고 마케터 지식 학습", and "블로그 이미지 제작": read `references/project-thread-knowledge-synthesis-260622.md`.
 
 ## WSEKR Default Positioning
 
