@@ -312,3 +312,113 @@ Critical caution:
 
 - AI summary in banner confirm may not perfectly match the product. Do not use auto-confirm blindly for regulated, luxury, medical, financial, or claim-sensitive products.
 - Sale price effective dates are not reflected in banner confirm output, so sale_price needs periodic updates.
+
+## 2026-07-02 Learning: Kakao Store Food Catalog Campaign For Seasonal Sales
+
+Use this section when the user asks how to propose Kakao ads for a Kakao Store / Talk Store food advertiser that wants short-term seasonal product sales with a small budget such as KRW 1M-3M.
+
+### 1. Newly Learned Facts
+
+- Product Catalog ads can be positioned as the primary sales-oriented Kakao ad for Kakao Store food sellers when product linkage, catalog access, and conversion tracking are available.
+- Product Catalog ads are conversion-objective, CPC-billed dynamic ads. They use linked product data and Kakao optimization to expose products to users likely to convert.
+- Product Catalog ad groups are not operated like ordinary display ad groups. Audience optimization is automatic, and separate custom-target attachment is not the default operating method.
+- Purchase detargeting can be used for new-purchaser acquisition, but manual segmentation such as visitor group A, cart group B, or demographic micro-groups should not be promised as a Product Catalog ad group structure.
+- A Product Catalog ad can serve both as a sales campaign and as a reaction-data accumulation route. Ad click/open/conversion reactions can later support separate display, Bizboard, or message retargeting where available.
+- Product sets can be selected for catalog creative operation. For seasonal fresh-food sales, this means the advertiser can focus on selected seasonal products instead of exposing every SKU, but the live product set should be kept small and coherent.
+- Product sets require at least two operable products for smooth exposure. If the advertiser wants to promote only one seasonal SKU, pair it with a related set item, bundle, premium pack, or best seller.
+- Catalog type should generally be used first for KRW 1M-3M seasonal sales. Bizboard type can be considered as a secondary test only after checking authority, profile review, and budget adequacy.
+- If a Bizboard-type catalog exposure is available, it is usually more coherent to test Bizboard type inside the Product Catalog campaign before proposing a separate generic Bizboard visit campaign for the same sales objective.
+- Kakao Click ID (`kclid`) helps connect ad-click identifiers to later conversion events under cookie-restricted environments. It is a measurement and optimization aid, not a way for the advertiser to directly identify or manage users' Kakao IDs.
+
+### 2. Corrections To Existing Kakao Knowledge
+
+- Do not say that Kakao Store entry alone makes conversion tracking automatic or easy. It can make product linkage more plausible, but ad account, catalog, Pixel & SDK, click ID, and service linkage still need confirmation.
+- Do not say that Kakao Store advertisers can freely use Kakao ID-based retargeting. Kakao may optimize with platform signals, but the advertiser does not directly receive or operate individual Kakao IDs.
+- Do not recommend many product sets as simultaneous ad groups for small budgets. Preparing multiple product sets is different from running multiple product-set ad groups at the same time.
+- Do not describe Product Catalog retargeting as manual retargeting. Safer wording: automated dynamic retargeting/recommendation based on product reactions and conversion signals.
+- Do not split KRW 1M-3M across Product Catalog, separate Bizboard, separate display, and messages unless there is a specific audience base and enough budget to evaluate each role.
+
+### 3. Practical Operating Principles
+
+For KRW 1M-3M seasonal fresh-food campaigns:
+
+1. Start with one Product Catalog conversion campaign.
+2. Use one live ad group with broad/whole audience and automatic optimization.
+3. Use one live product set with 2-6 coherent seasonal SKUs.
+4. Keep separate product sets as reserves, not simultaneous budget splits.
+5. Use catalog type first. Add Bizboard type only if eligible and if the budget can support the test.
+6. Confirm Pixel & SDK, catalog linkage, item ID/content ID matching, purchase event, and `kclid` before presenting conversion reporting as ready.
+7. After the first campaign accumulates ad reactions, consider separate display/Bizboard/message retargeting only if the audience volume is meaningful.
+
+Recommended product-set construction for seasonal food:
+
+| Product set | Contents | Use |
+|---|---|---|
+| Live seasonal set A | Main seasonal SKU + bundle + premium pack + best seller | Initial campaign |
+| Reserve set B | Discount or late-season stock products | Mid-season replacement |
+| Reserve set C | Gift or holiday set products | Next seasonal/holiday push |
+
+Avoid mixing unrelated food categories in one live set, such as fruit, beef, kimchi, and seafood together, unless the landing is a broad store-wide promotion. Coherent product intent improves interpretation and optimization.
+
+### 4. Proposal And Report Wording
+
+> 카카오스토어 입점 신선식품의 시즌 매출 활성화 목적이라면 상품 카탈로그 광고를 우선 제안드립니다. 상품 카탈로그 광고는 카카오스토어 상품을 연동해 구매 가능성이 높은 이용자에게 상품 이미지, 가격, 할인 정보 등을 자동 노출하는 전환형 광고입니다. 예산이 100만-300만 원 수준이라면 여러 광고상품으로 나누기보다 시즌 대표상품 2-6개를 하나의 상품세트로 구성해 카탈로그형 소재 중심으로 운영하는 것이 적합합니다.
+
+> 상품 카탈로그 광고는 리타겟팅 목적의 운영이 가능하지만, 운영자가 방문자·장바구니·구매자 타겟을 세부적으로 직접 선택하는 방식은 아닙니다. 카탈로그에 연동된 상품 반응 이벤트와 전환 데이터를 기반으로 카카오가 자동으로 전환 가능성이 높은 이용자에게 상품을 추천·노출하는 구조입니다.
+
+> 초기에는 상품 카탈로그 광고를 통해 시즌 상품 구매 전환과 상품 반응 모수 확보에 집중하고, 이후 광고 반응자 타겟이 충분히 축적되면 별도 디스플레이, 비즈보드, 메시지 캠페인을 통해 재접촉하는 단계형 운영을 권장드립니다.
+
+> 카카오톡채널을 보유하고 있다면 상품 카탈로그 광고와 채널 메시지를 함께 활용할 수 있습니다. 카탈로그 광고는 시즌 상품에 관심을 가질 가능성이 높은 신규 이용자에게 상품을 노출하고, 채널 메시지는 기존 친구에게 쿠폰, 재입고, 마감 임박, 한정 수량 등의 메시지를 발송해 구매를 재유도하는 역할을 합니다.
+
+### 5. Items Requiring Confirmation
+
+- Whether the advertiser's Kakao Store / Talk Store products can be linked to a Product Catalog in the specific ad account.
+- Whether the Catalog menu is available to the advertiser or requires partner/whitelist access.
+- Whether Pixel & SDK is created, linked to the ad account, and collecting purchase or product-reaction events.
+- Whether `kclid` is enabled and accepted through the landing/conversion route.
+- Whether item IDs in catalog data match Pixel & SDK content IDs; keep match rate high.
+- Whether catalog-type and Bizboard-type creative exposure are both available; Bizboard type may require profile information review and authority.
+- Whether channel friend count is large enough to justify channel message budget.
+- Whether fresh-food, health-food, origin, efficacy, discount, or limited-quantity claims require additional review evidence.
+
+## 2026-07-30 update: catalog targeting and placement claims
+
+### 1) 새로 학습한 사실
+
+#### 제공 파일 기반 사실
+
+- CJ Mezzomedia's August 2026 media report says a customer-file detargeting option was added to the custom-target settings of Kakao Moment Product Catalog ad groups.
+- The report says Kakao Commerce catalog campaigns linked automatically to Gift and Talk Store expanded to `쇼핑탭 > 랭킹탭 > 전체`.
+- The report also says performance inventory expanded to KakaoTalk's More tab game area when network placements are selected, and that some institutional finance categories became eligible in chat-list-related placements while investment advisory, investment information, asset management, and debt collection remain restricted.
+
+#### 공식 가이드 확인 결과
+
+- The Kakao Business Product Catalog guide accessible on 2026-07-30 still states that catalog audiences are automatically optimized and that separate custom-target functions are not supported.
+- Official guide checked 2026-07-30: https://kakaobusiness.gitbook.io/main/ad/moment/performance/catalog
+- Kakao's display guide states that placements can change and that the latest notices/account UI should be checked.
+- Official guide checked 2026-07-30: https://kakaobusiness.gitbook.io/main/ad/moment/performance/displayad
+
+### 2) 기존 지식에서 수정할 점
+
+- Do not immediately present customer-file detargeting as universally available. The uploaded report and the currently accessible official catalog guide conflict.
+- Do not guarantee the Ranking tab, game inventory, or financial-industry placement without checking the advertiser account, current placement guide, and industry review conditions.
+- `Network placement selected` does not mean the operator can guarantee one specific game screen. Placement delivery is system-selected within the allowed inventory.
+
+### 3) 실무 적용 원칙
+
+1. In the live Kakao Moment account, open the Product Catalog ad-group audience settings and verify whether customer-file detargeting exists.
+2. Save a screenshot/date of the UI when using a new option that is not yet reflected in the public guide.
+3. Check product-catalog placement reports after launch rather than assuming the entire budget will reach the newly added shopping area.
+4. For finance advertisers, confirm legal category, advertiser eligibility, creative review, and exact allowed placement before proposing the newly opened inventory.
+5. Use new placement expansion as a test opportunity, not a performance guarantee.
+
+### 4) 제안서/리포트 문장 예시
+
+> 카카오 상품 카탈로그 광고는 커머스 지면 확장과 고객파일 제외 기능이 안내되고 있으나, 공개 가이드와 계정별 제공 화면에 차이가 있을 수 있습니다. 실제 광고계정에서 사용 가능 여부와 노출 지면을 확인한 뒤, 기존 고객 제외와 신규 고객 확장 테스트에 적용하겠습니다.
+
+### 5) 다음 확인 필요사항
+
+- Official Kakao notice or updated public guide confirming customer-file detargeting.
+- Account eligibility and release scope for Gift/Talk Store ranking-tab catalog exposure.
+- Exact game inventory, reportable placement fields, and opt-out controls.
+- Detailed allowed/restricted finance subcategories and review evidence.
