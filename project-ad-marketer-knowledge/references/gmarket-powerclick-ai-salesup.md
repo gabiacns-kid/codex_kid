@@ -3123,6 +3123,30 @@ Use this order for future purchase-quantity-based seller mail:
 
 - 누적 구매수량이 높다는 사실을 최근 판매 안정성, 광고비 규모, 현재 성장세로 표현하지 않는다. 공개 시점까지 구매이력이 축적된 대표상품이라는 근거로만 사용한다.
 - 공개 미니샵 자료만으로 현재 광고 캠페인 상태나 AI Product Ads 이관 여부를 단정하지 않는다.
+
+## 2026-08-13 Learning: GabiaCNS DIAD AI Product Ads Support Features
+
+Source: user-provided internal development schedule on 2026-08-13. Internal launch reference date: 2026-08-19. Client-facing proposals use one common benefit description without separating pre-launch and post-launch wording.
+
+### Planned functions
+
+- AI Product Ads registration list manual/automatic synchronization and Excel download
+- Daily automatic update of advertising performance indicators
+- Period-to-period performance comparison when synchronized
+- AI Product Ads campaign and group ON/OFF control through DIAD ad-center integration
+- Campaign and group weekday/time ON/OFF scheduling
+
+### Proposal use
+
+- Use the functions as a common GabiaCNS benefit statement without mentioning a planned launch date.
+- Explain the value through operating problems rather than listing functions only:
+  - registration-list synchronization and Excel download reduce manual status checks;
+  - daily metric updates and period comparison support migration/learning-period monitoring;
+  - campaign/group ON/OFF integration and scheduling supplement the new ad center's limited weekday/time control.
+
+### Client-facing wording
+
+> 가비아CNS는 다이애드 연동을 통해 AI Product Ads 등록 현황과 성과지표를 정기적으로 업데이트하고 기간별 변화를 비교합니다. 캠페인·그룹 ON/OFF 관리와 요일·시간대 운영 스케줄링을 함께 활용해 신규 광고센터의 수동 관리 부담을 줄이고, 순차 이전 과정의 노출·비용·전환 흐름을 확인합니다.
 - 모든 판매자에게 같은 분량의 제안서를 보내지 않는다. 공개 근거의 깊이와 영업 우선순위에 맞춰 제안서 수준을 선택한다.
 
 ### 3) 실무 적용 원칙
@@ -3180,3 +3204,39 @@ Use this order for future purchase-quantity-based seller mail:
 - 상품별 최근 광고비·직접전환·판매자전환·광고수익률
 - 온열크림 상품의 등록 카테고리 적합성
 - 코인패치·스프레이·온열크림 간 검색어와 캠페인 중복 노출
+
+## 2026-08-13 변경 요약: APA 조기 전환 논리와 상품 중심 성과 판단
+
+### 1) 새로 학습한 사실
+
+- 사용자 내부 운영 용어로 `AI Product Ads`를 `APA`로 줄여 부른다. 광고주 문서에서는 최초 1회 정식 상품명을 함께 표기한 뒤 APA를 사용할 수 있다.
+- 가비아CNS 내부 제공 정보 기준으로 다이애드는 APA 등록 목록 동기화·엑셀 다운로드, 일별 성과지표 갱신, 기간 비교, 캠페인·그룹 ON/OFF와 요일·시간대 스케줄링을 지원하는 방향으로 준비됐다. 이는 플랫폼 공식 기능이 아니라 대행사 내부 솔루션 정보다.
+- 파워클릭 종료 일정은 공식적으로 확정 공지되지 않았다. 따라서 `곧 종료된다`, `9월에는 운영할 수 없다`는 문구는 확정 사실로 사용할 수 없다.
+- 9월 학기·행사 수요 전에 APA를 먼저 시험하자는 제안은 프로모션과 초기 데이터 확보를 연결한 운영 판단이며, 모든 상품에 동일하게 적용되는 성과 보장 논리가 아니다.
+
+### 2) 기존 지식에서 수정할 점
+
+- 광고주 제안서에서 `AI 학습 로직`이나 `노출 보장 솔루션`을 혜택 또는 전환 명분으로 표현하지 않는다.
+- 파워클릭 연장 가능성을 부정하거나 종료일을 추정하지 않는다. 기존 광고를 일괄 중단시키는 대신 대표상품부터 APA로 순차 검증하는 구조를 제시한다.
+- 노출 부족을 플랫폼이 상품을 `부적합하다고 판정했다`고 단정하지 않는다. 상품명·썸네일·카테고리와 주요 수요의 연결이 충분하지 않을 가능성으로 표현한다.
+
+### 3) 실무 적용 원칙
+
+1. 성수기 전환 제안은 `대표상품 선별 → APA 소규모 선행 운영 → 노출·비용·전환 흐름 확인 → 성수기 예산 결정` 순서로 제시한다.
+2. 노출이 부족한 상품은 상품명·썸네일·카테고리와 주요 수요의 매칭을 먼저 점검한다.
+3. 클릭 대비 직접 전환이 낮으면 상세페이지·옵션·배송비·가격을 점검한다.
+4. 판매자 전환은 높지만 광고 상품의 직접 전환이 낮으면 광고 운영 상품 교체 또는 역할 조정을 검토한다.
+5. 키워드는 자동 확장 수요를 이해하는 보조자료로 사용하고, 운영 결정은 상품별 비용·클릭·CPC·전환·매출·ROAS를 중심으로 내린다.
+
+### 4) 제안서/리포트 문장 예시
+
+> 파워클릭 종료 일정은 공식적으로 확정되지 않았으므로 기존 광고를 즉시 중단할 필요는 없습니다. 다만 9월 수요가 본격화되기 전에 대표상품부터 APA로 순차 운영해 초기 노출·비용·전환 데이터를 확보하면, 성수기 예산을 경험이 아닌 실제 상품 성과에 따라 배분할 수 있습니다.
+
+> 노출이 부족한 상품은 높은 입찰가를 먼저 적용하기보다 상품명·대표 이미지·등록 카테고리가 주요 수요와 충분히 연결되는지 점검합니다. 클릭은 발생하지만 직접 전환이 낮다면 상세페이지·옵션·배송비·가격을 확인하고, 판매자 전환만 높다면 광고 운영 상품의 교체 또는 역할 조정을 검토합니다.
+
+### 5) 다음 확인 필요사항
+
+- APA 프로모션 지급 조건과 실제 지급 일정의 최신 공식 공지
+- 파워클릭 종료·연장에 관한 G마켓의 최신 공식 안내
+- 다이애드 APA 지원 기능의 실제 배포 상태와 계정별 적용 범위
+- 대표상품별 초기 운영 기간에 필요한 최소 클릭·전환 표본과 성수기 예산 확대 기준
