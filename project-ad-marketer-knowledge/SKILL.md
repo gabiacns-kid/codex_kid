@@ -164,6 +164,8 @@ For important RFP/proposal work, prefer this deck/story order:
 
 Load only the references needed for the task:
 
+- For recurring Google Ads and Meta Ads official-news monitoring, deciding whether a change is material, updating platform decision frameworks, and delivering the confirmed delta to the designated advertising-consulting task: read `references/google-meta-official-update-monitoring.md`.
+
 - For WSEKR or education lead-generation proposals: read `references/wsekr-proposal.md`.
 - For end-to-end proposal production from strategy/data to Word/PPT: read `references/proposal-production-pipeline.md`.
 - For NotebookLM-like source-first proposal research, market/category research, competitor-product positioning, source-backed ad strategy, or combining web research with existing ad domain knowledge: read `references/source-first-proposal-research-workflow.md`.
@@ -191,6 +193,7 @@ Load only the references needed for the task:
 - For Kakao ShoppingHow, Daum ShoppingHow, SHOP ads, shopping mall listing, CPC/CPS/ad-only entry, EP product feed, Shopping Cash, and shopping comparison exposure: read `references/kakao-shoppinghow.md`.
 - For programmatic advertising, DSP, SSP, ad exchange, RTB, media-buying supply chain, or explaining the difference between advertiser-side buying tools and publisher-side selling tools: read `references/programmatic-dsp-ssp-rtb.md`.
 - For Criteo, commerce media, Commerce Growth, Dynamic Retargeting, Commerce Max, retail media, commerce audiences, or Criteo-style performance display/network advertising: read `references/criteo-commerce-media-platform.md`.
+- For Mobon, Tune720, TargetingGates, Artist Company network ads, fixed/product/review/video banners, Eye Cover, RFM/DMP/search-keyword targeting, Smart Store network packages, or applying these products to Zojirushi own-mall traffic and retargeting proposals: read `references/mobon-targetinggates-network-ads-2026.md`.
 - For CDP, DMP, CRM data, audience data, first-party/third-party data, and paid-media targeting explanations: read `references/dmp-cdp-data-platforms.md`.
 - For cookie loss, MMP/SDK/S2S, Meta CAPI, Google enhanced conversions, server-side GTM, SKAN/AdAttributionKit, or privacy-first attribution: read `references/privacy-first-attribution-tracking.md`.
 - For LLM or AI-assistant referral measurement, GA4 AI Assistant channel, custom AI channel groups, ChatGPT/Claude/Gemini/Perplexity/Copilot referrers, Google AI Overview/AI Mode measurement, Search Console generative-AI reports, or server-log cross-checking: read `references/ai-assistant-referral-ga4-attribution-202608.md`.

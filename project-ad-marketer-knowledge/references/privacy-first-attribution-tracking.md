@@ -2,6 +2,41 @@
 
 Use this reference when explaining cookie loss, MMPs, SDKs, S2S tracking, Meta CAPI, Google enhanced conversions, server-side GTM, SKAN/AdAttributionKit, or privacy-first conversion measurement in Korean ad proposals.
 
+## 2026-09-03 변경 요약: 공개 태그 점검과 SA 식별 규격
+
+### 1) 새로 학습한 사실
+
+- 공개 HTML에서 GA4·Google Ads·Naver WCS·Kakao JavaScript SDK 같은 코드가 보이더라도, 설치된 태그와 실제 전환 이벤트가 정상 발화한다는 사실은 별도다. GTM이 동적으로 불러오는 태그는 공개 소스만으로 누락될 수 있다.
+- Kakao JavaScript SDK 로딩은 Kakao Moment Pixel 설치를 뜻하지 않는다. SDK의 로그인·공유 기능과 광고 전환용 Pixel & SDK를 분리해서 확인한다.
+- 검색광고 분석에서는 자동 클릭 식별자와 UTM의 역할을 나눈다. Google Ads 자동 태깅의 `gclid`는 Google Ads와 GA4 귀속에 우선 활용하고, 수동 UTM은 내부 캠페인·그룹·소재·키워드 비교 규격으로 사용한다.
+- 문서 표기 제목을 `UTM_SOURCE`처럼 대문자로 쓸 수는 있지만 실제 URL 파라미터 키는 GA4 규격에 맞춰 `utm_source`, `utm_medium`, `utm_campaign`, `utm_term`, `utm_content`처럼 소문자로 유지한다. 값도 대소문자 차이로 행이 분리되지 않도록 규칙을 통일한다.
+
+### 2) 기존 지식에서 수정할 점
+
+- 페이지 소스에 태그 ID가 보인다는 이유로 구매·장바구니·회원가입 이벤트까지 정상 설치됐다고 확정하지 않는다.
+- `Kakao SDK 확인`을 `Kakao Pixel 확인`으로 바꿔 쓰지 않는다.
+- 네이버·구글 SA의 모든 키워드에 서로 다른 수동 URL을 직접 입력하는 작업만 제안하지 않는다. 플랫폼 추적 템플릿·동적 파라미터·자동 태깅 지원 범위를 먼저 확인한다.
+
+### 3) 실무 적용 원칙
+
+1. 1차 공개 점검: HTML·네트워크 요청에서 태그 컨테이너와 매체 ID 존재 여부를 확인한다.
+2. 2차 브라우저 점검: GTM Preview/Tag Assistant, GA4 DebugView, 각 매체 픽셀 도구로 페이지뷰와 이벤트 발화를 확인한다.
+3. 3차 거래 점검: 상품조회 → 장바구니 → 로그인·회원가입 → 결제 시작 → 테스트 구매 순서로 이벤트명, 값, 통화, 상품 ID, 주문번호를 확인한다.
+4. 4차 중복 점검: 브라우저 태그와 서버 이벤트가 함께 발송될 때 `event_id`, `order_id`, `lead_id`로 중복 제거되는지 확인한다.
+5. SA URL은 매체·캠페인·그룹·소재·키워드 구분을 공통 규격으로 설계하되, Google은 `gclid`를 삭제하거나 수동 UTM으로 대체하지 않는다.
+
+### 4) 제안서/리포트 문장 예시
+
+> 공개 소스에서는 일부 분석·광고 태그의 존재 여부만 확인할 수 있습니다. 실제 운영 전에는 태그 미리보기와 디버그 화면에서 상품조회, 장바구니, 결제 시작, 구매 이벤트가 정상 발화하는지 확인하고, 주문번호·매출값·통화·상품 ID와 중복 전송 여부까지 테스트하겠습니다.
+
+### 5) 다음 확인 필요사항
+
+- GTM 컨테이너 접근 권한과 게시 버전
+- GA4 향상된 측정·전자상거래 이벤트 및 Google Ads 전환 액션 설정
+- Naver WCS 구매값·주문번호 전송과 Kakao Pixel & SDK 이벤트 연동 여부
+- Meta Pixel·Conversions API 설치 및 `event_id` 중복 제거 여부
+- 모비온·타게팅게이츠 등 DSP의 전용 스크립트, 피드, 이벤트 규격과 매체 간 중복 귀속 기준
+
 ## Core positioning
 
 Do not frame the topic as "tracking is impossible now." The better proposal frame is:

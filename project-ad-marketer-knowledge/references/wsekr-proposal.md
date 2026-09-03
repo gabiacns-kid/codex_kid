@@ -6,6 +6,23 @@ Wall Street English Korea is a premium adult English education brand with offlin
 
 The RFP intent is not simple media buying. They are looking for a long-term partner that can improve Naver performance, restructure accounts, run systematic A/B tests, respond to Naver AI-based ad changes, and suggest domestic media such as Kakao.
 
+## WSEKR A/B Testing Scope
+
+Do not describe A/B testing as only ad-copy or creative-message testing.
+
+For WSEKR, A/B testing should cover the full Naver performance operating system:
+
+- Keyword groups and search intent: adult/worker, online/OCC, business English, region/center, level test/consultation, purpose/question keywords.
+- Rank and bidding strategy: desired rank, bid range, DIAD Pro rank-efficiency testing, ADVoost expanded-search control, and CPC efficiency.
+- Ad copy and extensions: message promise, consultation/level-test CTA, FAQ-based copy, trust signals.
+- Landing pages: adult English, online/OCC, business English, center pages, level-test/consultation pages.
+- Conversion path: form, reservation, phone/counseling connection, HubSpot lead stage, visit/registration/revenue feedback where available.
+- Lead quality: not only CPL/CPA/ROAS, but consultation connected, reservation/visit, registration, and revenue quality signals.
+
+Recommended wording:
+
+> WSEKR의 A/B 테스트는 단순 소재 문안 비교가 아니라, 키워드 의도와 순위 전략, 입찰 범위, 광고 메시지, 랜딩페이지, 전환 동선, 리드 품질까지 함께 검증하는 운영 체계로 설계합니다. 2주 단위 실험을 통해 확대·중단·재실험 기준을 명확히 하고, 월간 구조 조정에 반영하겠습니다.
+
 ## Recommended Strategic Frame
 
 The proposal should say:
