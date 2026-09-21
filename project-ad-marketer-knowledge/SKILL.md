@@ -49,6 +49,21 @@ Default behavior:
 - When Naver search ads are included in a proposal, always mention Gabia CNS DIAD Pro as the operation layer for automated bidding, rank monitoring, max-bid control, bid history, and CPC-efficiency support.
 - For WSEKR, never frame A/B testing as only ad-copy or creative testing. Include keyword intent, keyword rank, bid strategy, landing pages, conversion path, and lead quality signals in the test scope.
 
+## ChatGPT Ads
+
+When ChatGPT Ads could fit a Korean media mix, read [references/chatgpt-ads-korea-agency-202609.md](references/chatgpt-ads-korea-agency-202609.md).
+
+- Treat the product as `Ads Manager Beta` and re-check availability, targeting, billing, measurement, and policy in official OpenAI documentation before proposal delivery.
+- Position it as a conversational discovery and consideration channel, not as a guaranteed recommendation inside ChatGPT answers and not as a direct substitute for keyword search ads.
+- Evaluate fit from natural-language consideration behavior, landing relevance, conversion measurement readiness, KRW 25,000 minimum daily budget, test duration, and overlap with existing media.
+- Do not claim unsupported demographic, interest, weekday, or time-of-day targeting. Context hints guide semantic relevance but are not exact-match keywords or guaranteed placements.
+- Separate OpenAI attribution through Pixel, Conversions API, and `oppref` from external analytics through UTM and GA4.
+- Use supported dynamic landing macros such as `{campaign_id}`, `{ad_group_id}`, `{ad_id}`, and `{ad_account_id}` when campaign/ad-level attribution detail is needed; keep them distinct from human-readable UTM naming rules.
+- For Custom Audiences, distinguish the 25,000 matched-user minimum for inclusion/bid adjustment from the 100,000-user recommendation; audiences below 25,000 may still be used for exclusion. Treat 0.1x-10x audience bid multipliers as bid adjustments, not audience eligibility rules.
+- Prefer current official bulk-upload specifications over supplied sales-deck shorthand: title 16-24 characters recommended (50 max), copy 32-48 recommended (100 max), and square PNG/JPG up to 1200 x 1200. Re-check the live schema before launch.
+- Treat internal case-study ROAS, user-demographic survey data, market-expansion schedules, and future formats such as sponsored agents as non-public directional inputs, not proposal guarantees or currently available functions.
+- For agency onboarding, use a separate advertiser account per client and advertiser-granted account roles. Do not invent an MCC, pooled billing, or agency credit line unless the live product confirms it.
+
 ## DIAD Pro Naver Auto-Bidding
 
 Use this when a proposal includes Naver Powerlink, Shopping Search product type, Power Content, or Naver Place. Position DIAD Pro as a Gabia CNS operation tool, not as a conversion guarantee.
@@ -186,6 +201,7 @@ Load only the references needed for the task:
 - For beverage, hydration, repeat-purchase consumer goods, seasonal fruit, fresh food, seafood, product lifecycle, promotion baselines, AOV/CVR decomposition, and product-channel inference: read `references/beverage-seasonal-fresh-food-marketplace-inference.md`.
 - For custom pouches, brand merchandise, beauty accessories, corporate promotional goods, OEM/ODM manufacturing, and small-budget quote-based B2B search advertising: read `references/b2b-custom-promotional-goods-search-ads.md`.
 - For Kakao Ads product mapping, Kakao Moment, Bizboard, product catalog, display, message ads, participatory ads, keyword ads, brand search, Talk Channel Search, Business Form, Pixel & SDK, and Catalog: read `references/kakao-moment-products-2026.md`.
+- For Korean NGO fundraising, donor lifecycle and payment integration, MRM-style donor CRM, Happybean landing and tracking limits, Meta/Naver/Kakao media roles, Google Ad Grants, or monthly KRW 3.5-4.0 million fundraising media mixes: read `references/ngo-donor-lifecycle-fundraising-ads.md`.
 - For Kakao Moment ASAP, Moment x Gift packages, Kakao ad/service asset structure, event friend message, ad-response targeting, budget scenarios, bidding strategy, conversion optimization stages, and Pixel & SDK readiness: read `references/kakao-moment-asap-playbook-2026.md`.
 - For the 2026-07 Kakao Commerce Catalog advertiser free-cash benefit, agency growth reward, eligibility windows, reward exclusions, catalog campaign setup, internal ROAS cases, and proposal wording: read `references/kakao-commerce-catalog-growth-reward-202607.md`.
 - For Kakao Commerce Ads Center seller-linked groups, Gift/Talk Deal/Talk Shopping placements, direct purchase/approval/contract, BizWallet/payment, Channel/Personalized/Brand/Brand Pick message differences, CPMS cautions, and ad-response target definitions: read `references/kakao-commerce-ads-center-message-operations-202607.md`.
