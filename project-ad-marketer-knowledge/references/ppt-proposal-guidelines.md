@@ -99,3 +99,11 @@ Uploaded/reference files are usually under:
 - When click-through rate and click cost look healthy but purchase efficiency is weak, show the purchase conversion rate, purchase cost, purchase revenue or ROAS, and the cart-to-purchase break together.
 - Keep decorative section labels in Korean. Retain English only for official product names or unavoidable industry metrics such as GFA and GA4; prefer Korean terms for proposal, roadmap, targeting, traffic, CPA, and ROAS in advertiser-facing titles.
 - A slide may be concise, but it must be independently readable. Avoid sparse fragments that require the presenter to supply the missing causal logic.
+
+## Print-Friendly Proposal Rules, 2026-10-07
+
+- When the deck will be printed, use a white background by default unless the user requests a dark version. Converting a dark deck requires redesigning text, table fills, borders, accent colors, logos, and product-image panels; do not change only the slide background.
+- Limit the complete deck to no more than five font sizes. Apply the same title, subtitle, section label, summary, body, table, and footer hierarchy on every slide.
+- Use positioning maps only when the axes can accommodate every comparison group without distorting product meaning. When medicine-like products such as patches or sports gels appear beside cosmetics, use an axis such as `skin sensation ↔ pain or recovery expectation` and state that the map is a working positioning hypothesis.
+- Do not add an `advertising response` column when the advertiser has no meaningful control over mixed search results. Replace it with decision-useful evidence such as monthly search volume, mobile share, result composition, price band, or category mix.
+- Search volume is a demand reference, not a forecast of clicks or revenue. Add this limitation directly beside the data.
