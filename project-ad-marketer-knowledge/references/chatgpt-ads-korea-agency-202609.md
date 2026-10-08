@@ -253,3 +253,50 @@ ChatGPT Ads를 모든 광고주에게 기본 포함하지 않는다.
 - 광고계정은 광고주가 소유하고 대행사는 초대받은 사용자 권한으로 운영한다.
 - 광고주 결제정보, 법인 인증, 계정 삭제 요청은 광고주 책임자 확인을 거친다.
 - Advertiser API 키와 Conversions API 키는 일반 사용자 초대를 대신하지 않는다. 자동화 또는 서버 연동이 필요할 때만 발급하고 외부 공유를 금지한다.
+
+## 14. 2026-10-08 스마트스토어·마켓플레이스 랜딩과 상품 피드 광고
+
+### 1) 새로 학습한 사실
+
+- 일반 `chat_card` 광고의 랜딩은 2,048자 이하의 접근 가능한 HTTP 또는 HTTPS URL이면 된다. 공식 문서에서 자사 도메인만 허용한다는 조건은 확인되지 않았다.
+- 공식 상품 스키마는 마켓플레이스 상품을 명시적으로 지원한다. 마켓플레이스 오퍼는 해당 판매자의 구체적인 상품 페이지와 판매자 페이지를 사용하고, `seller_name`과 설정이 필요한 `marketplace_seller`를 구분한다.
+- OpenAI Ads에는 상품 피드 캠페인이 있다. 캠페인에 피드를 연결하고 광고그룹에서 브랜드·카테고리·가격·상품 ID 등으로 상품군을 선택하며, `product_ad_template`이 상품명·설명·가격·이미지·목적지 URL을 피드에서 불러온다.
+- 상품 피드 사용에는 광고계정, Advertiser API 키, 계정의 Product Feed API 권한, 스키마에 맞는 카탈로그와 공개 HTTPS 상품·이미지 URL, SFTP 업로드 체계가 필요하다. 계정에 권한이 없으면 OpenAI 담당팀 확인이 필요하다.
+- 상품별 노출·클릭은 Product Insights로 나눠 볼 수 있다. 전환 최적화는 활성 표준 전환 이벤트가 필요하다.
+
+### 2) 기존 지식에서 수정할 점
+
+- `OpenAI Ads에는 구글 쇼핑과 같은 상품 연동형 광고가 없다`고 설명하지 않는다. 현재 공식 문서상 상품 피드 광고가 존재한다.
+- 다만 Google Merchant Center와 Google Shopping을 그대로 복제한 상품으로 설명하지 않는다. OpenAI Product Feed와 ChatGPT 문맥 기반 노출 구조이며 계정별 접근 권한이 필요하다.
+- 스마트스토어 URL을 기술적으로 등록할 수 있다는 사실과 성과형 광고에 적합하다는 판단을 분리한다. 판매자가 OpenAI Pixel을 설치할 수 없어 구매 이벤트·매출·장바구니를 독립몰처럼 전송하기 어렵다.
+
+### 3) 실무 적용 원칙
+
+1. 스마트스토어 상품 상세 URL이 로그인 없이 열리고 광고 크롤러가 접근할 수 있는지 먼저 확인한다.
+2. 일반 클릭 캠페인은 운영 가능 후보로 보되, OpenAI Pixel 기반 구매 최적화와 정확한 ROAS 측정은 제한적이라고 안내한다.
+3. UTM과 스마트스토어 유입 통계로 방문은 구분할 수 있어도 OpenAI Ads의 구매 전환 측정을 대체한다고 설명하지 않는다.
+4. 상품 피드 캠페인은 스마트스토어가 자동 연동된다고 가정하지 않는다. 광고주가 상품 데이터를 별도 피드로 생성·업데이트할 수 있는지와 마켓플레이스 설정 지원 여부를 확인한다.
+5. 상품 수가 적거나 가격·재고 자동 갱신이 어려우면 일반 `chat_card` 클릭 캠페인이 더 현실적일 수 있다.
+6. 구매 최적화와 광고 매출 측정이 핵심이면 Pixel·CAPI와 상품 피드를 직접 관리할 수 있는 독립몰을 우선 권장한다.
+
+### 4) 제안서/리포트 문장 예시
+
+> 스마트스토어 상품 상세페이지도 공개 HTTPS 주소로 정상 접근되고 광고 심사를 통과한다면 OpenAI 광고의 랜딩 후보로 사용할 수 있습니다. 다만 스마트스토어에는 판매자가 OpenAI Pixel을 직접 설치하기 어려워 구매 전환 최적화와 정확한 광고 매출 측정에는 한계가 있습니다.
+
+> OpenAI Ads는 상품 피드 광고를 지원합니다. 상품명·가격·이미지·재고·목적지 URL을 피드에서 불러와 광고를 구성할 수 있지만, 계정별 Product Feed 권한과 별도 카탈로그 업로드가 필요합니다. 네이버 스마트스토어가 자동으로 연동되는 구조로 보기는 어렵습니다.
+
+### 5) 다음 확인 필요사항
+
+- 국내 광고계정의 Product Feed API 접근 가능 여부
+- 스마트스토어 상품·이미지 URL의 OpenAI 광고 크롤러 접근 및 심사 결과
+- 네이버가 제공하는 외부 광고 유입·구매 리포트 범위와 UTM 유지 여부
+- 스마트스토어 상품 데이터를 OpenAI 스키마로 변환하고 가격·재고를 갱신할 수 있는 운영 체계
+
+### 공식 확인 자료
+
+- https://developers.openai.com/ads/campaign-management
+- https://developers.openai.com/ads/product-feeds
+- https://developers.openai.com/ads/api-reference/ads
+- https://developers.openai.com/ads/api-reference/insights
+- https://developers.openai.com/commerce/specs/file-upload/products
+- https://learn.chatgpt.com/ads/measurement-pixel
