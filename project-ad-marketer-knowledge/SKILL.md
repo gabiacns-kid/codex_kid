@@ -180,6 +180,7 @@ For important RFP/proposal work, prefer this deck/story order:
 Load only the references needed for the task:
 
 - For recurring Google Ads and Meta Ads official-news monitoring, deciding whether a change is material, updating platform decision frameworks, and delivering the confirmed delta to the designated advertising-consulting task: read `references/google-meta-official-update-monitoring.md`.
+- For Gemini small-business hubs, connected business apps, brand-style asset generation, financial-data visualization, and the boundary between workflow assistance and confirmed Google Ads execution: read `references/gemini-small-business-marketing-tools-202610.md`.
 
 - For WSEKR or education lead-generation proposals: read `references/wsekr-proposal.md`.
 - For end-to-end proposal production from strategy/data to Word/PPT: read `references/proposal-production-pipeline.md`.
@@ -200,6 +201,7 @@ Load only the references needed for the task:
 - For Gmarket/Auction Power Click, AI SalesUp, AI Product Ads, open-market seller ads, market-analysis outbound mail, product-number sales DB comparison, self-owned mall detection for Naver expansion, Gmarket vs Auction bidding/reporting limits, or Power Click + AI SalesUp proposal logic: read `references/gmarket-powerclick-ai-salesup.md`.
 - For open-market weekly report comments, marketplace ROAS insights, 11st/Gmarket/Auction Best/Worst product or keyword tables, and next-action wording based on spend/conversion thresholds: read `references/open-market-weekly-report-insights.md`.
 - For weekly ad-report email structure, DA media comparison comments, tracking/setup approval request emails, and client-facing next-action wording: read `references/weekly-report-email-insights.md`.
+- For 2027 consumer-trend framing from the user-provided WiseApp webinar deck, including ALPHA SHEEP, category-fit checks, creative implications, and limits on using trend claims as performance evidence: read `references/consumer-trends-2027-wiseapp-webinar.md`.
 - For beverage, hydration, repeat-purchase consumer goods, seasonal fruit, fresh food, seafood, product lifecycle, promotion baselines, AOV/CVR decomposition, and product-channel inference: read `references/beverage-seasonal-fresh-food-marketplace-inference.md`.
 - For custom pouches, brand merchandise, beauty accessories, corporate promotional goods, OEM/ODM manufacturing, and small-budget quote-based B2B search advertising: read `references/b2b-custom-promotional-goods-search-ads.md`.
 - For ISO, corporate certification, procurement registration, product/environment certification, HACCP/FDA certification consulting, and B2B certification search-ad keyword grouping: read `references/b2b-certification-consulting-search-ads.md`.
