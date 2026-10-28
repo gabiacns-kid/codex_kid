@@ -180,9 +180,11 @@ For important RFP/proposal work, prefer this deck/story order:
 Load only the references needed for the task:
 
 - For recurring Google Ads and Meta Ads official-news monitoring, deciding whether a change is material, updating platform decision frameworks, and delivering the confirmed delta to the designated advertising-consulting task: read `references/google-meta-official-update-monitoring.md`.
+- For recurring Naver Ads and Kakao Ads official-news monitoring, separating announcements from effective dates and tests, updating the relevant Naver/Kakao references, and reporting only material operational changes: read `references/naver-kakao-official-update-monitoring.md`.
 - For Gemini small-business hubs, connected business apps, brand-style asset generation, financial-data visualization, and the boundary between workflow assistance and confirmed Google Ads execution: read `references/gemini-small-business-marketing-tools-202610.md`.
 
 - For WSEKR or education lead-generation proposals: read `references/wsekr-proposal.md`.
+- For cyber-university annual advertising RFPs, incumbent-agency renewal proposals, first-semester budget concentration, admission-type media roles, cooperative keyword-rank rules, and reconciling media conversions with applications or registrations: read `references/cyber-university-rfp-ad-proposal.md`.
 - For end-to-end proposal production from strategy/data to Word/PPT: read `references/proposal-production-pipeline.md`.
 - For NotebookLM-like source-first proposal research, market/category research, competitor-product positioning, source-backed ad strategy, or combining web research with existing ad domain knowledge: read `references/source-first-proposal-research-workflow.md`.
 - For automotive wiper advertisers, CAP-style online performance proposals, Naver Shopping Search product registration strategy, car-model fitment logic, and Meta wiper creative testing: read `references/automotive-wiper-performance-ads.md`.
