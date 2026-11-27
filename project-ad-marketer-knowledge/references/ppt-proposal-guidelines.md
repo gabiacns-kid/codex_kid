@@ -107,3 +107,27 @@ Uploaded/reference files are usually under:
 - Use positioning maps only when the axes can accommodate every comparison group without distorting product meaning. When medicine-like products such as patches or sports gels appear beside cosmetics, use an axis such as `skin sensation ↔ pain or recovery expectation` and state that the map is a working positioning hypothesis.
 - Do not add an `advertising response` column when the advertiser has no meaningful control over mixed search results. Replace it with decision-useful evidence such as monthly search volume, mobile share, result composition, price band, or category mix.
 - Search volume is a demand reference, not a forecast of clicks or revenue. Add this limitation directly beside the data.
+
+## 2026-11-27 변경 요약: 실무 문장과 운영 조건 보존
+
+### 1) 새로 학습한 사실
+
+- 사용자 피드백: 광고 제안서에서 의도적으로 평이한 표현을 사용하고 AI 문체처럼 느껴지는 추상적 전략 용어를 줄인다.
+
+### 2) 기존 지식에서 수정할 점
+
+- 문체를 매끄럽게 다듬는 과정에서 실제 운영 조건, 전환 정의 또는 역할을 바꾸지 않는다. `즉각`·`바로` 등 보장처럼 읽히는 표현은 실제 대응 시간과 매체 반영 조건을 확인한다.
+
+### 3) 실무 적용 원칙
+
+- `극대화`, `고도화`, `선순환`, `유기적 연계` 등 상투적 표현은 필요한 경우에만 사용하고 구체적인 관리 행동과 판단 기준을 우선한다.
+- 사용자가 수정한 평이한 문장과 의도를 유지하고, 문체 문제와 사실·전략 변경을 분리해 검토한다.
+- 글자 크기뿐 아니라 색상도 제목·본문·보조 설명·강조 등 역할에 맞추며, 의도된 매체별 구분 색상과 임의 사용을 구별한다.
+
+### 4) 제안서/리포트 문장 예시
+
+> 정해진 운영 시간에 신청 현황과 광고비를 확인하고, 모집 일정에 따라 예산과 광고 운영 상태를 조정합니다.
+
+### 5) 다음 확인 필요사항
+
+- 최종 문구가 실제 대행 범위와 처리 시간, 전환 목표를 정확히 유지하는지 검토한다. 플랫폼 기능에 관한 신규 주장은 없다.
